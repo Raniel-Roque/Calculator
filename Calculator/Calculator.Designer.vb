@@ -58,7 +58,7 @@ Partial Class Calculator
         Me.TextBox1.ReadOnly = True
         Me.TextBox1.Size = New System.Drawing.Size(279, 45)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "012345678912345"
+        Me.TextBox1.Text = "0"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'MenuStrip1
@@ -290,7 +290,7 @@ Partial Class Calculator
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(65, 60)
         Me.Button13.TabIndex = 15
-        Me.Button13.Text = "x"
+        Me.Button13.Text = "×"
         Me.Button13.UseVisualStyleBackColor = False
         '
         'Button14
@@ -367,7 +367,7 @@ Partial Class Calculator
         Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button18.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Image = CType(resources.GetObject("Button18.Image"), System.Drawing.Image)
+        Me.Button18.Image = Global.Calculator.My.Resources.Resources.Unhover
         Me.Button18.Location = New System.Drawing.Point(12, 112)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(65, 60)
