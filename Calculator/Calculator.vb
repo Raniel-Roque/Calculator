@@ -115,6 +115,14 @@
 
         If TextBox1.Text.Contains(".") Then
             Return
+        ElseIf TextBox1.Text = "+" Or TextBox1.Text = "-" Or TextBox1.Text = "×" Or TextBox1.Text = "/" Or TextBox1.Text = "Undefined" Then
+            Button11.Enabled = True
+            Button12.Enabled = True
+            Button13.Enabled = True
+            Button14.Enabled = True
+            Button16.Enabled = True
+            Button17.Enabled = True
+            TextBox1.Text = "0."
         ElseIf TextBox1.Text = "" Then
             TextBox1.Text = "0."
         Else
