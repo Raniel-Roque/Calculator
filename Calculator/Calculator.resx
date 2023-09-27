@@ -1004,7 +1004,7 @@
         KwDXT5Je788/Yep5k963n3j2vF/5XTfZ86a9V0kHAAAAADjMb7/9B4ExOx8Tt/YhAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="Button19.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BackButt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEIAAAA9CAYAAAAZIL/8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAAA/dJREFUeF7tmklr20AcxZ3ECfTQ3Jqzv4ihUMh2TW6FLHbST1BK4taxU9LN7TG3
@@ -1027,7 +1027,7 @@
         4XA4HDGQSv0HJeAJePTsk6cAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Button20.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="DelButt.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAEIAAAA9CAYAAAAZIL/8AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         vAAADrwBlbxySQAACINJREFUeF7tW2tQVVUUFnk4CNMIVJQVr6ipHzFEytvKnsM4UyI/kpl4qCjFo3Iy

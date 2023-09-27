@@ -36,28 +36,40 @@ Partial Class Calculator
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
+        Me.AddButt = New System.Windows.Forms.Button()
+        Me.SubButt = New System.Windows.Forms.Button()
+        Me.MultButt = New System.Windows.Forms.Button()
+        Me.DivButt = New System.Windows.Forms.Button()
+        Me.EqualButt = New System.Windows.Forms.Button()
+        Me.DeciButt = New System.Windows.Forms.Button()
+        Me.PerButt = New System.Windows.Forms.Button()
+        Me.ScienButt = New System.Windows.Forms.Button()
+        Me.BackButt = New System.Windows.Forms.Button()
+        Me.DelButt = New System.Windows.Forms.Button()
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button12 = New System.Windows.Forms.Button()
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
-        Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
         Me.Button17 = New System.Windows.Forms.Button()
         Me.Button18 = New System.Windows.Forms.Button()
         Me.Button19 = New System.Windows.Forms.Button()
         Me.Button20 = New System.Windows.Forms.Button()
+        Me.Button15 = New System.Windows.Forms.Button()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(14, 50)
+        Me.TextBox1.Location = New System.Drawing.Point(13, 78)
         Me.TextBox1.MaxLength = 15
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(279, 45)
-        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.Size = New System.Drawing.Size(423, 45)
+        Me.TextBox1.TabIndex = 3
         Me.TextBox1.Text = "0"
         Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -70,7 +82,7 @@ Partial Class Calculator
         Me.MenuStrip1.Margin = New System.Windows.Forms.Padding(0, 0, 0, 5)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(6)
-        Me.MenuStrip1.Size = New System.Drawing.Size(305, 32)
+        Me.MenuStrip1.Size = New System.Drawing.Size(447, 32)
         Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -89,12 +101,11 @@ Partial Class Calculator
         '
         Me.Button1.BackColor = System.Drawing.Color.Gray
         Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(12, 178)
+        Me.Button1.Location = New System.Drawing.Point(155, 206)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(65, 60)
         Me.Button1.TabIndex = 3
@@ -105,12 +116,11 @@ Partial Class Calculator
         '
         Me.Button2.BackColor = System.Drawing.Color.Gray
         Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(84, 178)
+        Me.Button2.Location = New System.Drawing.Point(227, 206)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(65, 60)
         Me.Button2.TabIndex = 4
@@ -121,12 +131,11 @@ Partial Class Calculator
         '
         Me.Button3.BackColor = System.Drawing.Color.Gray
         Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(156, 178)
+        Me.Button3.Location = New System.Drawing.Point(299, 206)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(65, 60)
         Me.Button3.TabIndex = 5
@@ -137,12 +146,11 @@ Partial Class Calculator
         '
         Me.Button4.BackColor = System.Drawing.Color.Gray
         Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(12, 245)
+        Me.Button4.Location = New System.Drawing.Point(155, 273)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(65, 60)
         Me.Button4.TabIndex = 6
@@ -153,12 +161,11 @@ Partial Class Calculator
         '
         Me.Button5.BackColor = System.Drawing.Color.Gray
         Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(84, 245)
+        Me.Button5.Location = New System.Drawing.Point(227, 273)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(65, 60)
         Me.Button5.TabIndex = 7
@@ -169,12 +176,11 @@ Partial Class Calculator
         '
         Me.Button6.BackColor = System.Drawing.Color.Gray
         Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(156, 245)
+        Me.Button6.Location = New System.Drawing.Point(299, 273)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(65, 60)
         Me.Button6.TabIndex = 8
@@ -185,12 +191,11 @@ Partial Class Calculator
         '
         Me.Button7.BackColor = System.Drawing.Color.Gray
         Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(12, 312)
+        Me.Button7.Location = New System.Drawing.Point(155, 340)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(65, 60)
         Me.Button7.TabIndex = 9
@@ -201,12 +206,11 @@ Partial Class Calculator
         '
         Me.Button8.BackColor = System.Drawing.Color.Gray
         Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(84, 312)
+        Me.Button8.Location = New System.Drawing.Point(227, 340)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(65, 60)
         Me.Button8.TabIndex = 10
@@ -217,12 +221,11 @@ Partial Class Calculator
         '
         Me.Button9.BackColor = System.Drawing.Color.Gray
         Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(156, 312)
+        Me.Button9.Location = New System.Drawing.Point(299, 340)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(65, 60)
         Me.Button9.TabIndex = 11
@@ -233,195 +236,385 @@ Partial Class Calculator
         '
         Me.Button10.BackColor = System.Drawing.Color.Gray
         Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
+        Me.Button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
         Me.Button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button10.Location = New System.Drawing.Point(84, 379)
+        Me.Button10.Location = New System.Drawing.Point(227, 407)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(65, 60)
         Me.Button10.TabIndex = 12
         Me.Button10.Text = "0"
         Me.Button10.UseVisualStyleBackColor = False
         '
+        'AddButt
+        '
+        Me.AddButt.BackColor = System.Drawing.Color.Teal
+        Me.AddButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.AddButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.AddButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.AddButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.AddButt.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AddButt.Location = New System.Drawing.Point(371, 139)
+        Me.AddButt.Name = "AddButt"
+        Me.AddButt.Size = New System.Drawing.Size(65, 60)
+        Me.AddButt.TabIndex = 13
+        Me.AddButt.Text = "+"
+        Me.AddButt.UseVisualStyleBackColor = False
+        '
+        'SubButt
+        '
+        Me.SubButt.BackColor = System.Drawing.Color.Teal
+        Me.SubButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.SubButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.SubButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.SubButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.SubButt.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.SubButt.Location = New System.Drawing.Point(371, 206)
+        Me.SubButt.Name = "SubButt"
+        Me.SubButt.Size = New System.Drawing.Size(65, 60)
+        Me.SubButt.TabIndex = 14
+        Me.SubButt.Text = "-"
+        Me.SubButt.UseVisualStyleBackColor = False
+        '
+        'MultButt
+        '
+        Me.MultButt.BackColor = System.Drawing.Color.Teal
+        Me.MultButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.MultButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.MultButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.MultButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.MultButt.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.MultButt.Location = New System.Drawing.Point(371, 273)
+        Me.MultButt.Name = "MultButt"
+        Me.MultButt.Size = New System.Drawing.Size(65, 60)
+        Me.MultButt.TabIndex = 15
+        Me.MultButt.Text = "×"
+        Me.MultButt.UseVisualStyleBackColor = False
+        '
+        'DivButt
+        '
+        Me.DivButt.BackColor = System.Drawing.Color.Teal
+        Me.DivButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.DivButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.DivButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.DivButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DivButt.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DivButt.Location = New System.Drawing.Point(371, 340)
+        Me.DivButt.Name = "DivButt"
+        Me.DivButt.Size = New System.Drawing.Size(65, 60)
+        Me.DivButt.TabIndex = 16
+        Me.DivButt.Text = "/"
+        Me.DivButt.UseVisualStyleBackColor = False
+        '
+        'EqualButt
+        '
+        Me.EqualButt.BackColor = System.Drawing.Color.Teal
+        Me.EqualButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.EqualButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.EqualButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.EqualButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.EqualButt.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.EqualButt.ForeColor = System.Drawing.Color.Honeydew
+        Me.EqualButt.Location = New System.Drawing.Point(371, 407)
+        Me.EqualButt.Name = "EqualButt"
+        Me.EqualButt.Size = New System.Drawing.Size(65, 60)
+        Me.EqualButt.TabIndex = 17
+        Me.EqualButt.Text = "="
+        Me.EqualButt.UseVisualStyleBackColor = False
+        '
+        'DeciButt
+        '
+        Me.DeciButt.BackColor = System.Drawing.Color.Gray
+        Me.DeciButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.DeciButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.DeciButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.DeciButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DeciButt.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DeciButt.Location = New System.Drawing.Point(299, 407)
+        Me.DeciButt.Name = "DeciButt"
+        Me.DeciButt.Size = New System.Drawing.Size(65, 60)
+        Me.DeciButt.TabIndex = 18
+        Me.DeciButt.Text = "."
+        Me.DeciButt.UseVisualStyleBackColor = False
+        '
+        'PerButt
+        '
+        Me.PerButt.BackColor = System.Drawing.Color.Gray
+        Me.PerButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.PerButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.PerButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.PerButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.PerButt.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.PerButt.Location = New System.Drawing.Point(155, 407)
+        Me.PerButt.Name = "PerButt"
+        Me.PerButt.Size = New System.Drawing.Size(65, 60)
+        Me.PerButt.TabIndex = 19
+        Me.PerButt.Text = "%"
+        Me.PerButt.UseVisualStyleBackColor = False
+        '
+        'ScienButt
+        '
+        Me.ScienButt.BackColor = System.Drawing.Color.Gray
+        Me.ScienButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.ScienButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.ScienButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.ScienButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ScienButt.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ScienButt.Image = Global.Calculator.My.Resources.Resources.Unhover
+        Me.ScienButt.Location = New System.Drawing.Point(155, 140)
+        Me.ScienButt.Name = "ScienButt"
+        Me.ScienButt.Size = New System.Drawing.Size(65, 60)
+        Me.ScienButt.TabIndex = 20
+        Me.ScienButt.UseVisualStyleBackColor = False
+        '
+        'BackButt
+        '
+        Me.BackButt.BackColor = System.Drawing.Color.IndianRed
+        Me.BackButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.BackButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.BackButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
+        Me.BackButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BackButt.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BackButt.Image = CType(resources.GetObject("BackButt.Image"), System.Drawing.Image)
+        Me.BackButt.Location = New System.Drawing.Point(300, 140)
+        Me.BackButt.Name = "BackButt"
+        Me.BackButt.Size = New System.Drawing.Size(65, 60)
+        Me.BackButt.TabIndex = 21
+        Me.BackButt.UseVisualStyleBackColor = False
+        '
+        'DelButt
+        '
+        Me.DelButt.BackColor = System.Drawing.Color.IndianRed
+        Me.DelButt.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.DelButt.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.DelButt.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
+        Me.DelButt.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.DelButt.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DelButt.Image = CType(resources.GetObject("DelButt.Image"), System.Drawing.Image)
+        Me.DelButt.Location = New System.Drawing.Point(227, 140)
+        Me.DelButt.Name = "DelButt"
+        Me.DelButt.Size = New System.Drawing.Size(65, 60)
+        Me.DelButt.TabIndex = 22
+        Me.DelButt.UseVisualStyleBackColor = False
+        '
         'Button11
         '
-        Me.Button11.BackColor = System.Drawing.Color.Teal
+        Me.Button11.BackColor = System.Drawing.Color.DimGray
         Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal
-        Me.Button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal
-        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button11.Location = New System.Drawing.Point(228, 111)
+        Me.Button11.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Location = New System.Drawing.Point(84, 140)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(65, 60)
-        Me.Button11.TabIndex = 13
-        Me.Button11.Text = "+"
+        Me.Button11.TabIndex = 23
+        Me.Button11.Text = "x²"
         Me.Button11.UseVisualStyleBackColor = False
+        Me.Button11.Visible = False
         '
         'Button12
         '
-        Me.Button12.BackColor = System.Drawing.Color.Teal
+        Me.Button12.BackColor = System.Drawing.Color.DimGray
         Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal
-        Me.Button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal
-        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button12.Location = New System.Drawing.Point(228, 178)
+        Me.Button12.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Location = New System.Drawing.Point(84, 206)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(65, 60)
-        Me.Button12.TabIndex = 14
-        Me.Button12.Text = "-"
+        Me.Button12.TabIndex = 24
+        Me.Button12.Text = "xⁿ"
         Me.Button12.UseVisualStyleBackColor = False
+        Me.Button12.Visible = False
         '
         'Button13
         '
-        Me.Button13.BackColor = System.Drawing.Color.Teal
+        Me.Button13.BackColor = System.Drawing.Color.DimGray
         Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal
-        Me.Button13.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal
-        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button13.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button13.Location = New System.Drawing.Point(228, 245)
+        Me.Button13.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Location = New System.Drawing.Point(84, 273)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(65, 60)
-        Me.Button13.TabIndex = 15
-        Me.Button13.Text = "×"
+        Me.Button13.TabIndex = 25
+        Me.Button13.Text = "Mod"
         Me.Button13.UseVisualStyleBackColor = False
+        Me.Button13.Visible = False
         '
         'Button14
         '
-        Me.Button14.BackColor = System.Drawing.Color.Teal
+        Me.Button14.BackColor = System.Drawing.Color.DimGray
         Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal
-        Me.Button14.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal
-        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
+        Me.Button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button14.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button14.Location = New System.Drawing.Point(228, 312)
+        Me.Button14.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Location = New System.Drawing.Point(84, 341)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(65, 60)
-        Me.Button14.TabIndex = 16
-        Me.Button14.Text = "/"
+        Me.Button14.TabIndex = 26
+        Me.Button14.Text = "√x"
         Me.Button14.UseVisualStyleBackColor = False
-        '
-        'Button15
-        '
-        Me.Button15.BackColor = System.Drawing.Color.Teal
-        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.Teal
-        Me.Button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Teal
-        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DeepSkyBlue
-        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("Consolas", 26.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button15.ForeColor = System.Drawing.Color.Honeydew
-        Me.Button15.Location = New System.Drawing.Point(228, 379)
-        Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(65, 60)
-        Me.Button15.TabIndex = 17
-        Me.Button15.Text = "="
-        Me.Button15.UseVisualStyleBackColor = False
+        Me.Button14.Visible = False
         '
         'Button16
         '
-        Me.Button16.BackColor = System.Drawing.Color.Gray
+        Me.Button16.BackColor = System.Drawing.Color.DimGray
         Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button16.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button16.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button16.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button16.Location = New System.Drawing.Point(156, 379)
+        Me.Button16.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button16.Location = New System.Drawing.Point(13, 140)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(65, 60)
-        Me.Button16.TabIndex = 18
-        Me.Button16.Text = "."
+        Me.Button16.TabIndex = 27
+        Me.Button16.Text = "+/-"
         Me.Button16.UseVisualStyleBackColor = False
+        Me.Button16.Visible = False
         '
         'Button17
         '
-        Me.Button17.BackColor = System.Drawing.Color.Gray
+        Me.Button17.BackColor = System.Drawing.Color.DimGray
         Me.Button17.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button17.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button17.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button17.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button17.Location = New System.Drawing.Point(12, 379)
+        Me.Button17.Location = New System.Drawing.Point(13, 207)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(65, 60)
-        Me.Button17.TabIndex = 19
-        Me.Button17.Text = "%"
+        Me.Button17.TabIndex = 28
+        Me.Button17.Text = "!"
         Me.Button17.UseVisualStyleBackColor = False
+        Me.Button17.Visible = False
         '
         'Button18
         '
-        Me.Button18.BackColor = System.Drawing.Color.Gray
+        Me.Button18.BackColor = System.Drawing.Color.DimGray
         Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.White
-        Me.Button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Gray
-        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
+        Me.Button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button18.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button18.Image = Global.Calculator.My.Resources.Resources.Unhover
-        Me.Button18.Location = New System.Drawing.Point(12, 112)
+        Me.Button18.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button18.Location = New System.Drawing.Point(13, 273)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(65, 60)
-        Me.Button18.TabIndex = 20
+        Me.Button18.TabIndex = 29
+        Me.Button18.Text = "|x|"
         Me.Button18.UseVisualStyleBackColor = False
+        Me.Button18.Visible = False
         '
         'Button19
         '
-        Me.Button19.BackColor = System.Drawing.Color.IndianRed
+        Me.Button19.BackColor = System.Drawing.Color.DimGray
         Me.Button19.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.IndianRed
-        Me.Button19.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed
-        Me.Button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
+        Me.Button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button19.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button19.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button19.Image = CType(resources.GetObject("Button19.Image"), System.Drawing.Image)
-        Me.Button19.Location = New System.Drawing.Point(157, 112)
+        Me.Button19.Location = New System.Drawing.Point(13, 340)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(65, 60)
-        Me.Button19.TabIndex = 21
+        Me.Button19.TabIndex = 30
+        Me.Button19.Text = "π"
         Me.Button19.UseVisualStyleBackColor = False
+        Me.Button19.Visible = False
         '
         'Button20
         '
-        Me.Button20.BackColor = System.Drawing.Color.IndianRed
+        Me.Button20.BackColor = System.Drawing.Color.DimGray
         Me.Button20.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.Button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.IndianRed
-        Me.Button20.FlatAppearance.MouseDownBackColor = System.Drawing.Color.IndianRed
-        Me.Button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.LightCoral
+        Me.Button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button20.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.Font = New System.Drawing.Font("Consolas", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button20.Image = CType(resources.GetObject("Button20.Image"), System.Drawing.Image)
-        Me.Button20.Location = New System.Drawing.Point(84, 112)
+        Me.Button20.Location = New System.Drawing.Point(13, 408)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(65, 60)
-        Me.Button20.TabIndex = 22
+        Me.Button20.TabIndex = 31
+        Me.Button20.Text = "e"
         Me.Button20.UseVisualStyleBackColor = False
+        Me.Button20.Visible = False
+        '
+        'Button15
+        '
+        Me.Button15.BackColor = System.Drawing.Color.DimGray
+        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
+        Me.Button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.Transparent
+        Me.Button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button15.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.Location = New System.Drawing.Point(84, 407)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(65, 60)
+        Me.Button15.TabIndex = 32
+        Me.Button15.Text = "1/x"
+        Me.Button15.UseVisualStyleBackColor = False
+        Me.Button15.Visible = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.BackColor = System.Drawing.Color.LightGray
+        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox2.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox2.ForeColor = System.Drawing.Color.DimGray
+        Me.TextBox2.Location = New System.Drawing.Point(13, 40)
+        Me.TextBox2.MaxLength = 15
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.ReadOnly = True
+        Me.TextBox2.Size = New System.Drawing.Size(423, 32)
+        Me.TextBox2.TabIndex = 33
+        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
+        'TextBox3
+        '
+        Me.TextBox3.BackColor = System.Drawing.Color.LightGray
+        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.TextBox3.Font = New System.Drawing.Font("Consolas", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.DimGray
+        Me.TextBox3.Location = New System.Drawing.Point(534, 140)
+        Me.TextBox3.MaxLength = 15
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
+        Me.TextBox3.Size = New System.Drawing.Size(18, 32)
+        Me.TextBox3.TabIndex = 1
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.TextBox3.Visible = False
         '
         'Calculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer), CType(CType(24, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(305, 450)
+        Me.ClientSize = New System.Drawing.Size(447, 479)
+        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button20)
         Me.Controls.Add(Me.Button19)
         Me.Controls.Add(Me.Button18)
         Me.Controls.Add(Me.Button17)
         Me.Controls.Add(Me.Button16)
-        Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
         Me.Controls.Add(Me.Button13)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.DelButt)
+        Me.Controls.Add(Me.BackButt)
+        Me.Controls.Add(Me.ScienButt)
+        Me.Controls.Add(Me.PerButt)
+        Me.Controls.Add(Me.DeciButt)
+        Me.Controls.Add(Me.EqualButt)
+        Me.Controls.Add(Me.DivButt)
+        Me.Controls.Add(Me.MultButt)
+        Me.Controls.Add(Me.SubButt)
+        Me.Controls.Add(Me.AddButt)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button8)
@@ -461,14 +654,26 @@ Partial Class Calculator
     Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents Button10 As Button
+    Friend WithEvents AddButt As Button
+    Friend WithEvents SubButt As Button
+    Friend WithEvents MultButt As Button
+    Friend WithEvents DivButt As Button
+    Friend WithEvents EqualButt As Button
+    Friend WithEvents DeciButt As Button
+    Friend WithEvents PerButt As Button
+    Friend WithEvents ScienButt As Button
+    Friend WithEvents BackButt As Button
+    Friend WithEvents DelButt As Button
     Friend WithEvents Button11 As Button
     Friend WithEvents Button12 As Button
     Friend WithEvents Button13 As Button
     Friend WithEvents Button14 As Button
-    Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
     Friend WithEvents Button17 As Button
     Friend WithEvents Button18 As Button
     Friend WithEvents Button19 As Button
     Friend WithEvents Button20 As Button
+    Friend WithEvents Button15 As Button
+    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents TextBox3 As TextBox
 End Class
