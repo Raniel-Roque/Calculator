@@ -156,6 +156,7 @@
             x = TextBox1.Text
         End If
 
+        Button11.Enabled = False
         Button12.Enabled = False
         Button13.Enabled = False
         Button14.Enabled = False
@@ -168,6 +169,7 @@
         End If
 
         Button11.Enabled = False
+        Button12.Enabled = False
         Button13.Enabled = False
         Button14.Enabled = False
         If x = Nothing Then
@@ -184,6 +186,7 @@
 
         Button11.Enabled = False
         Button12.Enabled = False
+        Button13.Enabled = False
         Button14.Enabled = False
         If x = Nothing Then
             x = TextBox1.Text
@@ -200,6 +203,7 @@
         Button11.Enabled = False
         Button12.Enabled = False
         Button13.Enabled = False
+        Button14.Enabled = False
         If x = Nothing Then
             x = TextBox1.Text
         End If
@@ -220,5 +224,66 @@
         TextBox1.Text = "0"
         x = Nothing
         Ope = Nothing
+    End Sub
+
+    Private Sub Calculator_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
+        Select Case e.KeyData
+            Case Keys.NumPad1, Keys.D1
+                Button1.PerformClick()
+                Return
+            Case Keys.NumPad2, Keys.D2
+                Button2.PerformClick()
+                Return
+            Case Keys.NumPad3, Keys.D3
+                Button3.PerformClick()
+                Return
+            Case Keys.NumPad4, Keys.D4
+                Button4.PerformClick()
+                Return
+            Case Keys.NumPad5, Keys.D5
+                Button5.PerformClick()
+                Return
+            Case Keys.NumPad6, Keys.D6
+                Button6.PerformClick()
+                Return
+            Case Keys.NumPad7, Keys.D7
+                Button7.PerformClick()
+                Return
+            Case Keys.NumPad8, Keys.D8
+                Button8.PerformClick()
+                Return
+            Case Keys.NumPad9, Keys.D9
+                Button9.PerformClick()
+                Return
+            Case Keys.NumPad0, Keys.D0
+                Button10.PerformClick()
+                Return
+            Case Keys.Decimal
+                Button16.PerformClick()
+                Return
+            Case Keys.Oem5
+                Button17.PerformClick()
+                Return
+            Case Keys.Add
+                Button11.PerformClick()
+                Return
+            Case Keys.Subtract
+                Button12.PerformClick()
+                Return
+            Case Keys.Multiply
+                Button13.PerformClick()
+                Return
+            Case Keys.Divide
+                Button14.PerformClick()
+                Return
+            Case Keys.Back
+                Button19.PerformClick()
+                Return
+            Case Keys.Delete
+                Button20.PerformClick()
+                Return
+        End Select
+
+
     End Sub
 End Class
