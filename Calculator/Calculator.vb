@@ -1,4 +1,7 @@
 ﻿Public Class Calculator
+    'Programmer: Roque, Raniel Christian B
+    'BSIT-2A
+    'Date Finished: September 28 2019
     Dim x As Double
     Dim Ope As Integer = 0
     Private Sub EnableButtons(ByVal enable As Boolean) 'Function to Enable Disabled Buttons
@@ -474,5 +477,9 @@
     Private Sub Button20_Click(sender As Object, e As EventArgs) Handles Button20.Click
         EnableButtons(True)
         TextBox1.Text = 2.718281828459
+    End Sub
+
+    Private Sub HomeToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HomeToolStripMenuItem.Click
+        MessageBox.Show("Placeholder for Future Compilation", "Placeholder for Future Compilation", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class
