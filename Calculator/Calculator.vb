@@ -1,7 +1,7 @@
 ﻿Public Class Calculator
     'Programmer: Roque, Raniel Christian B
     'BSIT-2A
-    'Date Finished: September 28 2019
+    'Date Finished: September 28 2023
     Dim x As Double
     Dim Ope As Integer = 0
     Private Sub EnableButtons(ByVal enable As Boolean) 'Function to Enable Disabled Buttons
